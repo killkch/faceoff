@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>AI 헤어스타일 스튜디오</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-fixed-variant":"#46464c","surface-container-lowest":"#0e0e10","on-surface":"#e4e2e4","on-secondary-container":"#b6b4bc","on-error-container":"#ffdad6","error-container":"#93000a","tertiary":"#ffffff","surface-bright":"#39393b","outline":"#8d947a","secondary-fixed-dim":"#c7c5cd","inverse-surface":"#e4e2e4","surface-dim":"#131315","inverse-primary":"#4c6700","primary-fixed":"#bdf529","surface":"#131315","on-primary":"#263500","surface-container":"#1f1f21","primary":"#ffffff","on-primary-fixed-variant":"#394d00","inverse-on-surface":"#303032","surface-container-low":"#1b1b1d","on-background":"#e4e2e4","on-tertiary":"#303036","on-secondary":"#303036","tertiary-fixed":"#e4e1e9","surface-variant":"#353437","on-secondary-fixed":"#1b1b21","primary-container":"#bdf529","secondary-container":"#46464d","error":"#ffb4ab","tertiary-container":"#e4e1e9","on-primary-fixed":"#151f00","on-tertiary-container":"#64646a","on-error":"#690005","on-surface-variant":"#c3c9ae","background":"#131315","secondary":"#c7c5cd","on-secondary-fixed-variant":"#46464d","surface-container-high":"#2a2a2c","on-tertiary-fixed":"#1b1b21","surface-container-highest":"#353437","surface-tint":"#a3d800","secondary-fixed":"#e4e1e9","outline-variant":"#434934","primary-fixed-dim":"#a3d800","on-primary-container":"#516d00","tertiary-fixed-dim":"#c7c5cd"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-mobile":"1rem","space-xs":"0.25rem","space-xl":"2rem","gutter-mobile":"0.75rem","margin":"1.5rem","space-sm":"0.5rem","space-md":"1rem","space-lg":"1.5rem","gutter":"1rem"},fontFamily:{"label-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"]},fontSize:{"label-sm":["10px",{"lineHeight":"12px","letterSpacing":"0.06em","fontWeight":"700"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"38px","letterSpacing":"-0.025em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"700"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-low/90 backdrop-blur-xl border-b border-surface-variant"><div class="h-16 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><div class="flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container-high border border-surface-variant shadow-[0_0_12px_rgba(189,245,41,0.25)]"><span class="material-symbols-outlined text-primary-container text-[22px]">auto_fix_high</span></div><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">AI 헤어스타일 스튜디오</span><span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-primary-fixed font-label-sm text-label-sm">v2.5</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary-fixed border border-primary-fixed-dim/40 rounded-full px-space-md py-1.5"><a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full font-label-md text-label-md transition-colors" data-path="experience-studio" href="#">체험 스튜디오</a><a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full font-label-md text-label-md transition-colors" data-path="hairstyle-gallery" href="#">헤어스타일 갤러리</a><a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full font-label-md text-label-md transition-colors" data-path="before-after-compare" href="#">비포 &amp; 애프터 비교</a><a aria-current="page" class="font-label-md transition-colors bg-surface-container-high text-primary-fixed border border-primary-fixed-dim/40 rounded-full px-space-md py-1.5" data-path="my-look-book" href="#">마이 룩 북</a><a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-1.5 rounded-full font-label-md text-label-md transition-colors" data-path="user-guide" href="#">이용 가이드</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="hidden md:flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container border border-surface-variant"><span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface-variant">AI 뉴럴 엔진 4.2 가동 중</span></div><button class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span></button><button class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">help</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<div class="w-full px-margin py-space-xl flex flex-col gap-space-xl max-w-7xl mx-auto">
+<!-- Top Hero / Header Section -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary-fixed">Personal Hair Archive</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">• 총 8개 스타일 보관 중</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          마이 룩 북 <span class="text-primary-fixed font-headline-md text-headline-md font-normal opacity-90">(My Look Book)</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          체험했던 가상 헤어스타일 결과들을 모아보고, 마음에 드는 스타일을 미용실 방문 전 한눈에 비교해 보세요.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="h-[52px] px-space-lg rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg flex items-center gap-space-sm transition-all duration-200" id="btn-toggle-compare" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary-container">compare</span>
+<span>헤어스타일 2종 나란히 비교</span>
+<span class="w-5 h-5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm flex items-center justify-center font-bold">2</span>
+</button>
+<button class="h-[52px] px-space-lg rounded-xl bg-primary-container hover:bg-primary-fixed text-on-primary font-label-lg text-label-lg flex items-center gap-space-sm transition-all duration-200 shadow-[0_0_24px_rgba(189,245,41,0.25)]" type="button">
+<span class="material-symbols-outlined text-[20px]">add_photo_alternate</span>
+<span>새 스타일 생성하기</span>
+</button>
+</div>
+</div>
+<!-- Pinned Compare Sticky/Floating Interactive Bar -->
+<div class="w-full bg-surface-container rounded-2xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md shadow-xl transition-all" id="compare-strip">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-xl bg-primary-container/15 flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">layers</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary-container bg-surface-container-high px-space-xs py-0.5 rounded-full">비교함 활성</span>
+<span class="font-headline-sm text-headline-sm text-primary">웨이비 보브 vs 클래식 단발</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">웨이브 볼륨감 및 페이스라인 음영 변화 분석 리포트가 대기 중입니다.</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm self-end md:self-auto">
+<div class="flex -space-x-3 items-center mr-space-xs">
+<div class="w-9 h-9 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="Wavy Bob preview thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UqfQaOsesdiQ2YXN6xNrP2fyhspVW1sWQxu2B9CWX2JI2OFFWBVSBJyhG6gpxRWRQFHqFfcJjCvrvX5tHDnDiFBb2MMXI-C_r3Yt1X7gKBywuytXxuIynIAgYhQdu_t-Kj-USiDnO5_IAWYs_wWAu8C6qnTC7Bx4qnZ3O3Dmwo6kugK0pgPgUsGiIJ_5kz8avZjLsQFty62hDopfKNI-bDmMy9qnE7YroxPKeLIy34jpp93hV5opK-zRI"/>
+</div>
+<div class="w-9 h-9 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="Classic Bob preview thumbnail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VKtkQtgrTMeFSdEuHRSOcQsK5FRdcdHNF6ZZv08xr837hturJOzG8CYPfGWz_E8qHpx_dZEA5Mnn6B0gFG3UFMOcX-PfwYDQScS_hHDEQwgGnOr04-zcaLMVZaUtohH8uiBt6hz2QgvuZkc3EJZL84MePBfosRz5KdmKmrHvuKVS-lDYxKScQjZoD917wnLXQQmSfbv7CFaoiPg_PXzHIYQg7BMTqmGgH07R3qbDrlM7M6l19hAj6QBQ"/>
+</div>
+</div>
+<button class="h-10 px-space-md rounded-xl bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md flex items-center gap-1 transition-colors" onclick="document.getElementById('side-by-side-modal').classList.toggle('hidden')" type="button">
+<span>상세 비교 모달 열기</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+</div>
+<!-- Filter Bar & Search Tool -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs lg:pb-0">
+<button class="px-space-md py-2 rounded-full bg-surface-container-highest text-primary-container font-label-md text-label-md flex items-center gap-1.5 shrink-0 shadow-[0_0_12px_rgba(189,245,41,0.2)]" type="button">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>전체 보관함 (8)</span>
+</button>
+<button class="px-space-md py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1.5 shrink-0 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>즐겨찾기 (3)</span>
+</button>
+<button class="px-space-md py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1.5 shrink-0 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">history</span>
+<span>최근 시뮬레이션 (5)</span>
+</button>
+<button class="px-space-md py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1.5 shrink-0 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">palette</span>
+<span>컬러 체인지 (2)</span>
+</button>
+</div>
+<div class="flex items-center gap-space-sm w-full lg:w-80">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<input class="w-full h-11 pl-11 pr-space-md rounded-xl bg-surface-container text-primary font-body-md text-body-md placeholder-on-surface-variant/60 focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="스타일명, 태그 또는 기장 검색..." type="text"/>
+</div>
+<button class="w-11 h-11 rounded-xl bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary shrink-0 transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+</div>
+<!-- Style Grid (3-4 columns responsive Bento/Card Mosaic) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1: Active / Favorited (Featured Hero Spec) -->
+<div class="group relative rounded-2xl bg-surface-container flex flex-col overflow-hidden transition-all duration-300 hover:translate-y-[-4px] shadow-lg shadow-black/40">
+<!-- Image Box -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-lowest">
+<img alt="웨이비 보브 (카라멜 글레이즈) 시뮬레이션 결과" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1UqfQaOsesdiQ2YXN6xNrP2fyhspVW1sWQxu2B9CWX2JI2OFFWBVSBJyhG6gpxRWRQFHqFfcJjCvrvX5tHDnDiFBb2MMXI-C_r3Yt1X7gKBywuytXxuIynIAgYhQdu_t-Kj-USiDnO5_IAWYs_wWAu8C6qnTC7Bx4qnZ3O3Dmwo6kugK0pgPgUsGiIJ_5kz8avZjLsQFty62hDopfKNI-bDmMy9qnE7YroxPKeLIy34jpp93hV5opK-zRI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent opacity-90"></div>
+<!-- Top Badges -->
+<div class="absolute top-space-sm left-space-sm right-space-sm flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>즐겨찾기</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">award_star</span>
+<span>98% 어울림</span>
+</span>
+</div>
+<!-- Quick compare marker overlay -->
+<div class="absolute bottom-space-sm right-space-sm">
+<button class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center hover:scale-110 transition-transform shadow-lg" title="비교함 선택됨" type="button">
+<span class="material-symbols-outlined text-[18px]">done</span>
+</button>
+</div>
+</div>
+<!-- Content Area -->
+<div class="p-space-md flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">오늘 생성</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ID #WAVE-902</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-primary-fixed transition-colors">
+              웨이비 보브 (카라멜 글레이즈)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">
+              미디엄 • 내추럴 볼륨 웨이브 • 웜 브라운 하이라이트
+            </p>
+</div>
+<!-- Attribute Metrics Tag Capsule -->
+<div class="grid grid-cols-3 gap-1 bg-surface-container-high p-space-xs rounded-xl">
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">페이스 라인</span>
+<span class="font-label-md text-label-md text-primary">완벽 보완</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">헤어 볼륨</span>
+<span class="font-label-md text-label-md text-primary">+25%</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">손질 난이도</span>
+<span class="font-label-md text-label-md text-primary-fixed">쉬움</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center justify-between gap-space-xs pt-space-xs">
+<button class="flex-1 py-2 px-space-sm rounded-lg bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>비교함 담김</span>
+</button>
+<div class="flex items-center gap-1">
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="다운로드" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="공유" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2: Baseline Classic Bob -->
+<div class="group relative rounded-2xl bg-surface-container flex flex-col overflow-hidden transition-all duration-300 hover:translate-y-[-4px] shadow-lg shadow-black/40">
+<!-- Image Box -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-lowest">
+<img alt="클래식 단발 (내추럴 블랙) 시뮬레이션 결과" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1VKtkQtgrTMeFSdEuHRSOcQsK5FRdcdHNF6ZZv08xr837hturJOzG8CYPfGWz_E8qHpx_dZEA5Mnn6B0gFG3UFMOcX-PfwYDQScS_hHDEQwgGnOr04-zcaLMVZaUtohH8uiBt6hz2QgvuZkc3EJZL84MePBfosRz5KdmKmrHvuKVS-lDYxKScQjZoD917wnLXQQmSfbv7CFaoiPg_PXzHIYQg7BMTqmGgH07R3qbDrlM7M6l19hAj6QBQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent opacity-90"></div>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm right-space-sm flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-highest text-primary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[13px] text-on-surface-variant">photo_camera</span>
+<span>기준 스타일</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm">
+              쇼트 태슬 기장
+            </span>
+</div>
+<!-- Quick compare marker overlay -->
+<div class="absolute bottom-space-sm right-space-sm">
+<button class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center hover:scale-110 transition-transform shadow-lg" title="비교함 선택됨" type="button">
+<span class="material-symbols-outlined text-[18px]">done</span>
+</button>
+</div>
+</div>
+<!-- Content Area -->
+<div class="p-space-md flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">어제 생성</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ID #BOB-408</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-primary-fixed transition-colors">
+              클래식 단발 (내추럴 블랙)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">
+              쇼트 • 슬릭 태슬 피니시 • 모던 미니멀 시크
+            </p>
+</div>
+<!-- Attribute Metrics Tag Capsule -->
+<div class="grid grid-cols-3 gap-1 bg-surface-container-high p-space-xs rounded-xl">
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">턱선 강조</span>
+<span class="font-label-md text-label-md text-primary">또렷함</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">텍스처</span>
+<span class="font-label-md text-label-md text-primary">슬릭 스트레이트</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">매칭 점수</span>
+<span class="font-label-md text-label-md text-primary">92%</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center justify-between gap-space-xs pt-space-xs">
+<button class="flex-1 py-2 px-space-sm rounded-lg bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>비교함 담김</span>
+</button>
+<div class="flex items-center gap-1">
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="다운로드" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="공유" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3: Curly Volume Perm -->
+<div class="group relative rounded-2xl bg-surface-container flex flex-col overflow-hidden transition-all duration-300 hover:translate-y-[-4px] shadow-lg shadow-black/40">
+<!-- Image Box -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="High quality studio portrait photo of a stylish Asian woman with bouncy curly spiral perm hair, voluminous dark espresso tones, elegant lighting, modern studio background, high fashion aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCbfl4ZF4gHVMEaXY3uP3V-amsu0kfZB_aNow_MWWATpxYcXPdQi0V26cZelS-Fe5djJmGpDE7ta1aOIu0LyqpWmZRNM1XYvnC691-wTOVe9N_LOwnE7-a9QrAdijO01U7RgTVzWuiT-SrPd9XfOm-dEwwdsVgYRhcjz6Fla-rpt9Cgb07T7BikRsrh-GfSWDggXd1ozJzlDy57Kk1gXbGySrMZY07qvPwS98uJ0eX457mLV7UHxzK"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent opacity-90"></div>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm right-space-sm flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-highest/90 text-on-surface font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[13px] text-primary-fixed">bubble_chart</span>
+<span>풍성한 볼륨</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm">
+              88% 어울림
+            </span>
+</div>
+<!-- Quick compare marker overlay -->
+<div class="absolute bottom-space-sm right-space-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-high hover:bg-primary-container hover:text-on-primary text-on-surface-variant flex items-center justify-center transition-colors shadow-lg" title="비교함에 추가" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+<!-- Content Area -->
+<div class="p-space-md flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">3일 전</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ID #PERM-118</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-primary-fixed transition-colors">
+              컬리 볼륨펌 (에스프레소)
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">
+              미디엄 • 탄력 스파이럴 컬 • 내추럴 루즈 텍스처
+            </p>
+</div>
+<!-- Attribute Metrics Tag Capsule -->
+<div class="grid grid-cols-3 gap-1 bg-surface-container-high p-space-xs rounded-xl">
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">볼륨 증가</span>
+<span class="font-label-md text-label-md text-primary">+40%</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">컬 강도</span>
+<span class="font-label-md text-label-md text-primary">미디엄 3호</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">유지 기간</span>
+<span class="font-label-md text-label-md text-primary">3~4개월</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center justify-between gap-space-xs pt-space-xs">
+<button class="flex-1 py-2 px-space-sm rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary font-label-md text-label-md flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>비교함 담기</span>
+</button>
+<div class="flex items-center gap-1">
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="다운로드" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="공유" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 4: See-Through Curtain Bangs Long -->
+<div class="group relative rounded-2xl bg-surface-container flex flex-col overflow-hidden transition-all duration-300 hover:translate-y-[-4px] shadow-lg shadow-black/40">
+<!-- Image Box -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Chic editorial portrait of an elegant woman with soft curtain bangs and long layered soft brown hair, front angle headshot, dark studio background with subtle warm halo rim light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCR60GXgwyUBUYRYUxLEY-9cYh9u9GxZFgNWpkKybFT0jK9AynZ2wIY4P8Tj6g3G1bXDPhm5A4104Mz-zu3RMfYB37lyhajXdkB9E_ALZSwlSp_J9Rz91hVwaICfHcMQc44vdQwc87XEHHO-27kckUvIu47wqFCTqd8azE3z7ZVogZLV7d0LC3tKECDP6bvfIgk3yeunhaQoOlcsrhfW24-JnyrzqdTkfGdMw2Zjddvc49RXBlAbdy"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent opacity-90"></div>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm right-space-sm flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-highest/90 text-on-surface font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[13px] text-primary-fixed">face</span>
+<span>앞머리 라인 커버</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm">
+              95% 어울림
+            </span>
+</div>
+<!-- Quick compare marker overlay -->
+<div class="absolute bottom-space-sm right-space-sm">
+<button class="w-9 h-9 rounded-full bg-surface-container-high hover:bg-primary-container hover:text-on-primary text-on-surface-variant flex items-center justify-center transition-colors shadow-lg" title="비교함에 추가" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+<!-- Content Area -->
+<div class="p-space-md flex flex-col justify-between flex-1 gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">1주일 전</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ID #BANG-772</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-primary-fixed transition-colors">
+              시스루 커튼 뱅 &amp; 레이어드
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">
+              롱 • 페이스 라인 소프트 컨투어링 • 샌드 베이지
+            </p>
+</div>
+<!-- Attribute Metrics Tag Capsule -->
+<div class="grid grid-cols-3 gap-1 bg-surface-container-high p-space-xs rounded-xl">
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">윤곽 보정</span>
+<span class="font-label-md text-label-md text-primary">광대 축소감</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">레이어 층</span>
+<span class="font-label-md text-label-md text-primary">3단 슬림</span>
+</div>
+<div class="flex flex-col items-center py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">스타일링</span>
+<span class="font-label-md text-label-md text-primary">아이롱 권장</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center justify-between gap-space-xs pt-space-xs">
+<button class="flex-1 py-2 px-space-sm rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary font-label-md text-label-md flex items-center justify-center gap-1 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>비교함 담기</span>
+</button>
+<div class="flex items-center gap-1">
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="다운로드" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface hover:text-primary flex items-center justify-center transition-colors" title="공유" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Interactive Dual Comparison Section (Desktop Spotlight) -->
+<div class="w-full bg-surface-container-low rounded-3xl p-space-lg lg:p-space-xl flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded bg-primary-container/20 text-primary-container font-label-sm text-label-sm font-bold">SIDE-BY-SIDE ANALYSIS</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">헤어 디자이너 상담 최적화 뷰포트</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">실시간 헤어 비교 인터랙션</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">슬라이더를 좌우로 드래그하여 차이를 확인하세요</span>
+</div>
+</div>
+<!-- Split Slider Canvas Component -->
+<div class="relative w-full aspect-[16/9] md:aspect-[21/9] rounded-2xl overflow-hidden bg-surface-container-lowest select-none" id="dual-compare-container">
+<!-- Base Under Image (Classic Bob) -->
+<div class="absolute inset-0 w-full h-full">
+<img alt="Right side: Classic Bob" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VKtkQtgrTMeFSdEuHRSOcQsK5FRdcdHNF6ZZv08xr837hturJOzG8CYPfGWz_E8qHpx_dZEA5Mnn6B0gFG3UFMOcX-PfwYDQScS_hHDEQwgGnOr04-zcaLMVZaUtohH8uiBt6hz2QgvuZkc3EJZL84MePBfosRz5KdmKmrHvuKVS-lDYxKScQjZoD917wnLXQQmSfbv7CFaoiPg_PXzHIYQg7BMTqmGgH07R3qbDrlM7M6l19hAj6QBQ"/>
+<div class="absolute bottom-space-md right-space-md bg-surface-container-lowest/80 backdrop-blur-md px-space-md py-1.5 rounded-full flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md text-primary">오른쪽: 클래식 단발 (차분하고 시크)</span>
+</div>
+</div>
+<!-- Over Image (Wavy Bob) clipped -->
+<div class="absolute inset-0 w-full h-full overflow-hidden" id="compare-clip" style="width: 50%;">
+<div class="w-[100vw] max-w-[1280px] h-full relative">
+<img alt="Left side: Wavy Bob" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UqfQaOsesdiQ2YXN6xNrP2fyhspVW1sWQxu2B9CWX2JI2OFFWBVSBJyhG6gpxRWRQFHqFfcJjCvrvX5tHDnDiFBb2MMXI-C_r3Yt1X7gKBywuytXxuIynIAgYhQdu_t-Kj-USiDnO5_IAWYs_wWAu8C6qnTC7Bx4qnZ3O3Dmwo6kugK0pgPgUsGiIJ_5kz8avZjLsQFty62hDopfKNI-bDmMy9qnE7YroxPKeLIy34jpp93hV5opK-zRI"/>
+</div>
+<div class="absolute bottom-space-md left-space-md bg-surface-container-lowest/80 backdrop-blur-md px-space-md py-1.5 rounded-full flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span class="font-label-md text-label-md text-primary">왼쪽: 웨이비 보브 (볼륨감 및 화사함)</span>
+</div>
+</div>
+<!-- Drag Divider Bar -->
+<div class="absolute top-0 bottom-0 w-1 bg-primary-container cursor-ew-resize flex items-center justify-center" id="compare-divider" style="left: 50%;">
+<div class="w-10 h-10 rounded-full bg-surface text-primary-container flex items-center justify-center shadow-xl shadow-black/80 hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[20px]">drag_indicator</span>
+</div>
+</div>
+</div>
+<!-- Quantitative Comparison Metrics Table -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md pt-space-xs">
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">헤어 라인 기장</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">턱선 아래 2cm</span>
+<span class="font-label-sm text-label-sm text-primary-container">vs 턱선 정렬</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80">웨이비 보브가 턱 윤곽을 조금 더 부드럽게 감쌉니다.</p>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">측면 실루엣 볼륨</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-primary-fixed">+32% 확장</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">플랫 슬릭</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80">헤어 측면 볼륨이 살아나며 두상이 둥글어 보입니다.</p>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">헤어 컬러 레벨</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">Level 7 웜브라운</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Level 3 내추럴</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80">카라멜 하이라이트로 안색이 2단계 맑아 보입니다.</p>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">디자이너 추천도</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-primary-fixed">강력 추천 (98%)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">일반 (92%)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant/80">현재 유저의 계란형 얼굴형에 가장 우수한 밸런스.</p>
+</div>
+</div>
+</div>
+<!-- Salon Consultation Export Banner / Bottom Card -->
+<div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-surface-container-high via-surface-container to-surface-container-low p-space-lg lg:p-space-xl flex flex-col lg:flex-row items-center justify-between gap-space-lg shadow-2xl">
+<!-- Decorative ambient glow -->
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="flex flex-col md:flex-row items-center md:items-start gap-space-lg text-center md:text-left z-10">
+<div class="w-16 h-16 rounded-2xl bg-surface-container-highest flex items-center justify-center text-primary-fixed shrink-0 shadow-lg shadow-black/40">
+<span class="material-symbols-outlined text-[36px]">picture_as_pdf</span>
+</div>
+<div class="flex flex-col gap-space-xs max-w-xl">
+<div class="flex items-center justify-center md:justify-start gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold">1-Click 스마트 서비스</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">살롱 현장용 100% 최적화</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">헤어 디자이너 상담용 리포트 생성</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            원하는 스타일의 정면/측면 컷 및 컬러 명도 가이드라인, 모발 시술 제안이 포함된 상담용 전문 PDF를 즉시 생성할 수 있습니다. 살롱 방문 시 디자이너에게 스마트폰 화면으로 보여주거나 전송하세요.
+          </p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm z-10 shrink-0 w-full lg:w-auto">
+<button class="w-full sm:w-auto h-14 px-space-lg rounded-2xl bg-surface-container-highest hover:bg-surface-variant text-primary font-label-lg text-label-lg flex items-center justify-center gap-space-sm transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">preview</span>
+<span>리포트 미리보기</span>
+</button>
+<button class="w-full sm:w-auto h-14 px-space-xl rounded-2xl bg-primary-container hover:bg-primary-fixed text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-space-sm transition-all duration-200 shadow-[0_0_24px_rgba(189,245,41,0.3)]" type="button">
+<span class="material-symbols-outlined text-[22px]">download</span>
+<span>살롱 상담용 PDF 내보내기</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Fullscreen / Modal Dual Side-by-Side Detailed Viewer (Hidden by default, toggleable) -->
+<div class="hidden fixed inset-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl p-space-md md:p-space-xl flex flex-col justify-center items-center" id="side-by-side-modal">
+<div class="w-full max-w-5xl bg-surface-container rounded-3xl p-space-lg flex flex-col gap-space-md max-h-[90vh] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[24px]">compare_arrows</span>
+<h3 class="font-headline-md text-headline-md text-primary">상세 헤어 비교 뷰어 (Side-by-Side)</h3>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-surface-variant flex items-center justify-center text-on-surface" onclick="document.getElementById('side-by-side-modal').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Style A -->
+<div class="flex flex-col gap-space-sm">
+<div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-surface-container-lowest">
+<img alt="Style A: Wavy Bob" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UqfQaOsesdiQ2YXN6xNrP2fyhspVW1sWQxu2B9CWX2JI2OFFWBVSBJyhG6gpxRWRQFHqFfcJjCvrvX5tHDnDiFBb2MMXI-C_r3Yt1X7gKBywuytXxuIynIAgYhQdu_t-Kj-USiDnO5_IAWYs_wWAu8C6qnTC7Bx4qnZ3O3Dmwo6kugK0pgPgUsGiIJ_5kz8avZjLsQFty62hDopfKNI-bDmMy9qnE7YroxPKeLIy34jpp93hV5opK-zRI"/>
+<span class="absolute top-space-sm left-space-sm px-space-sm py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold">후보 1: 웨이비 보브</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-primary">웨이비 보브 (카라멜 글레이즈)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">풍성한 입체감과 부드러운 인상. 웜톤 메이크업과 완벽한 조화.</p>
+<div class="flex items-center gap-space-xs text-primary-fixed font-label-sm text-label-sm mt-1">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>권장 시술: 디지털 셋팅펌 + 카라멜 브라운 전체 염색</span>
+</div>
+</div>
+</div>
+<!-- Style B -->
+<div class="flex flex-col gap-space-sm">
+<div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-surface-container-lowest">
+<img alt="Style B: Classic Bob" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VKtkQtgrTMeFSdEuHRSOcQsK5FRdcdHNF6ZZv08xr837hturJOzG8CYPfGWz_E8qHpx_dZEA5Mnn6B0gFG3UFMOcX-PfwYDQScS_hHDEQwgGnOr04-zcaLMVZaUtohH8uiBt6hz2QgvuZkc3EJZL84MePBfosRz5KdmKmrHvuKVS-lDYxKScQjZoD917wnLXQQmSfbv7CFaoiPg_PXzHIYQg7BMTqmGgH07R3qbDrlM7M6l19hAj6QBQ"/>
+<span class="absolute top-space-sm left-space-sm px-space-sm py-1 rounded-full bg-surface-container-highest text-primary font-label-sm text-label-sm font-bold">후보 2: 클래식 단발</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-primary">클래식 단발 (내추럴 블랙)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">모던하고 깔끔한 칼단발. 도회적이고 세련된 이미지 연출.</p>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm mt-1">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>권장 시술: 볼륨 매직 스트레이트 + 모발 케어 클리닉</span>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-end gap-space-sm pt-space-sm">
+<button class="px-space-lg py-2.5 rounded-xl bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md" onclick="document.getElementById('side-by-side-modal').classList.add('hidden')" type="button">
+          닫기
+        </button>
+<button class="px-space-lg py-2.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-1.5 font-bold" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>이 비교 결과로 상담지 받기</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+    (function initComparisonInteractive() {
+      const container = document.getElementById('dual-compare-container');
+      const clip = document.getElementById('compare-clip');
+      const divider = document.getElementById('compare-divider');
+      let isDragging = false;
+
+      if (!container || !clip || !divider) return;
+
+      const updateSlider = (clientX) => {
+        const rect = container.getBoundingClientRect();
+        let pos = ((clientX - rect.left) / rect.width) * 100;
+        pos = Math.max(0, Math.min(100, pos));
+        clip.style.width = pos + '%';
+        divider.style.left = pos + '%';
+      };
+
+      divider.addEventListener('mousedown', () => { isDragging = true; });
+      window.addEventListener('mouseup', () => { isDragging = false; });
+      window.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        updateSlider(e.clientX);
+      });
+
+      // Touch events support
+      divider.addEventListener('touchstart', () => { isDragging = true; }, { passive: true });
+      window.addEventListener('touchend', () => { isDragging = false; });
+      window.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        if (e.touches && e.touches[0]) {
+          updateSlider(e.touches[0].clientX);
+        }
+      }, { passive: true });
+
+      // Click to position
+      container.addEventListener('click', (e) => {
+        updateSlider(e.clientX);
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-surface-variant py-space-lg"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col gap-space-xs text-center md:text-left"><p class="font-body-sm text-body-sm text-on-surface-variant">본 서비스는 업로드된 사진을 오직 가상 헤어스타일 시뮬레이션용으로만 사용합니다.</p><p class="font-body-sm text-body-sm text-on-surface-variant/70">© 2025 AI Hairstyle Studio Inc. All rights reserved.</p></div><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">개인정보 처리방침</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">이용약관</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">안전 &amp; AI 윤리 가이드</a></div></div></footer></body></html>
